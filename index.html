@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="text">
+        <h1>FICOU COM DUVIDA?<br />NOS MANDE UMA MENSAGEM!</h1>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+
+      <div class="formulario">
+        <form method="GET" action="index.html">
+          
+          <input type="text" class="input" placeholder="Nome Completo *" onclick="verificarVazio()" />
+          <div class="campo-obrigatorio"></div>
+
+          <input type="text" class="input" placeholder="Email *" onclick="verificarVazio()" />
+          <div class="campo-obrigatorio"></div>
+
+          <input type="text" class="input" placeholder="Telefone *" onclick="verificarVazio()" />
+          <div class="campo-obrigatorio"></div>
+
+          <input type="text" class="textarea" placeholder="Mensagem *" onclick="verificarVazio()"></input>
+          <div class="campo-obrigatorio"></div>
+
+        </form>
+
+        <span>*campos obrigatórios</span>
+
+        <button id="botao">Enviar</button>
+      </div>
+    </main>
+
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

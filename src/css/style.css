@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: url(../images/bg-repeat.jpg) center;
+    width: 800px;
+    height: 402px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.container .text {
+    color: #fff;
+    width: 300px;
+    height: 111px;
+    margin-right: 72px;
+}
+
+.container .text h1 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.container .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.container .formulario {
+    background-color: #fff;
+    width: 340px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container .formulario .input {
+    width: 300px;
+    height: 35px;
+    
+}
+
+.container .formulario .textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+
+.container .formulario .input,
+.container .formulario .textarea {
+    border: 1,2px solid #000;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.campo-obrigatorio {
+    color: #F52E2E;
+    margin-bottom: 7px;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.container .formulario span {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.container .formulario button {
+    background-color: #3CCC87;
+    color: #fff;
+    width: 300px;
+    height: 42px;
+    margin-top: 11px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
